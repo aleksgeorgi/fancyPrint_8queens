@@ -34,8 +34,6 @@ int main() {
                 return 0;
             }
             board[c]++; 
-
-
         }
 
         // Check if the placed queen is ok.
@@ -48,9 +46,7 @@ int main() {
             // move to next row if not ok
             board[c]++;
         }
-
     }
-    
     return 0;
 }//end of Main()
 
@@ -100,7 +96,6 @@ void fancyPrint(int q[]){
             wb[i][j] = ' ';
             //bb[i][j] = char(219); //char219 does not work for my ide
             bb[i][j] = '%'; //fills the black boxes with chars 
-
         }
     }
     
@@ -187,7 +182,6 @@ void fancyPrint(int q[]){
                 }
             //cout << char(179) << endl; //char179 does not work for my ide 
             cout << '#' << endl; //makes the righ hand side wall of the board
-
         }
     }
     
